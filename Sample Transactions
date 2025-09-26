@@ -1,0 +1,34 @@
+🛠️ How to Interact with the Contract
+Donate with a Message:
+
+In Remix, expand the donate function.
+
+Enter your message in the _message field (e.g., "Keep it up!").
+
+Set the value in the "Value" field to the amount of ETH you wish to donate (e.g., 0.001).
+
+Click Transact and confirm the transaction in your MetaMask wallet.
+
+Donate without a Message:
+
+Send ETH directly to the contract address: 0xBbD4f3BA2b7DE63B3622eBFb54B5E2C91D566046.
+
+The contract will record the donation with a default message: "No message".
+
+📌 Notes
+
+Always test on the Base Sepolia testnet before deploying on Base Mainnet.
+
+Donations and withdrawals are visible on BaseScan under the Events tab.
+
+This contract serves as a simple on-chain project to showcase on GitHub.
+
+### 📑 Sample Transaction
+
+- **Transaction Hash**: 0xe84395e9643f134e09da739f1bbf0df71bddf1deca0a480fa37206e1e609414b  
+- **From**: 0xAb73e0E942ecAAF634216EFb78786fa0F92f2eb6  
+- **To**: 0xBbD4f3BA2b7DE63B3622eBFb54B5E2C91D566046  
+- **Value Sent**: 0.001 ETH  
+- **Message**: "Great project!"  
+- **Status**: ✅ Success
+
